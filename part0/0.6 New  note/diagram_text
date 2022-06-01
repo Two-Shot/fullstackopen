@@ -1,0 +1,14 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over server:
+server saves new
+item
+end note
+
+server-->browser: HTTP code 201 confirming creation
+
+note over browser:
+browser updates DOM
+to include new item
+end note
+
